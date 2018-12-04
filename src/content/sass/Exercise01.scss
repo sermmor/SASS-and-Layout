@@ -1,0 +1,62 @@
+
+$rangeColor: 200;
+
+@function CalculateColorPaletteIndex($normalColor, $numberOfElements, $indexCurrentElement)
+{
+    $redToReturn: $normalColor;
+    $middleIndex: floor($numberOfElements / 2) + 1;
+    $colorFactor: $rangeColor / ($middleIndex - 1);
+    
+    @if $indexCurrentElement < $middleIndex {
+        $indexColor: $middleIndex - $indexCurrentElement;
+        $redToReturn: $normalColor - ($indexColor * $colorFactor);
+        @if $redToReturn < 0
+        {
+            $redToReturn: 0;
+        }
+    }
+    @else if $indexCurrentElement > $middleIndex {
+        $indexColor: $indexCurrentElement - $middleIndex;
+        $redToReturn: $normalColor + ($indexColor * $colorFactor);
+        @if $redToReturn > 255
+        {
+            $redToReturn: 255;
+        }
+    }
+
+    @return $redToReturn;
+}
+
+@mixin CreateColorPalette($parentId, $numberOfDarken: 0, $numberOfLighten: 0, $colorRed: 255, 
+        $colorGreen: 0, $colorBlue: 0) {
+    $numberOfElements: 1 + $numberOfDarken + $numberOfLighten;
+    $divHeadName: $parentId + ' div:first-of-type';
+    $divNext: ' + div';
+    $currentDiv: $divHeadName;
+    
+    @for $indexDiv from 1 through $numberOfElements {
+        // Check current element
+        @if $indexDiv > 1 {
+            $currentDiv: $currentDiv + $divNext;
+        }
+        // css code
+        #{$currentDiv} {
+            display: inline-block;
+            background-color: rgba(
+                CalculateColorPaletteIndex($colorRed, $numberOfElements, $indexDiv),
+                CalculateColorPaletteIndex($colorGreen, $numberOfElements, $indexDiv),
+                CalculateColorPaletteIndex($colorBlue, $numberOfElements, $indexDiv),
+                1);
+            color: rgba(230, 230, 230, 1);
+            padding: 60px 5px 60px 5px;
+        }
+    }
+}
+
+div {
+    padding-bottom: 30px;
+}
+
+@include CreateColorPalette('#firstColor', 4, 4, 255, 0, 0);
+@include CreateColorPalette('#secondColor', 4, 4, 0, 255, 0);
+@include CreateColorPalette('#thirdColor', 4, 4, 0, 0, 255);
