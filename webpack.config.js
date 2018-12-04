@@ -39,7 +39,11 @@ module.exports = {
     [
         new HtmlWebpackPlugin({
             filename: 'Exercise01.html',
-            template: 'src/pages/Exercise01/Exercise01.html'
+            template: 'src/pages/Exercise01.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'Exercise02.html',
+            template: 'src/pages/Exercise02.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
