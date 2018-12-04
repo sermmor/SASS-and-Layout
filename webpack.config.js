@@ -8,7 +8,7 @@ module.exports = {
             './src/content/sass/Exercise02Base.scss',
             './src/content/css/Exercise02_theme01.css', // Theme 1 for exercise 02.
             //'./src/content/css/Exercise02_theme02.css', // Theme 2 for exercise 02.
-            
+
         ]
     },
     output: {
@@ -48,6 +48,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'Exercise02.html',
             template: 'src/pages/Exercise02.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'Exercise03.html',
+            template: 'src/pages/Exercise03.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
