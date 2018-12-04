@@ -1,0 +1,114 @@
+$totalContainerHeight: 30em;
+$MenuReduceFactorInMediumSize: 6;
+$sizeMargin: 20em;
+
+// Commons attributes.
+
+@mixin createContainerBaseAtt($totalSizeMargin: 0) {
+    @include createMarginRoot($totalSizeMargin);
+    grid-template-columns: 20em auto;
+    grid-template-rows: auto auto;
+    height: $totalContainerHeight;
+}
+
+@mixin createItemContentAtt($colorItem) {
+    box-sizing: border-box;
+    height: $totalContainerHeight / 2;
+    background-color: $colorItem;
+}
+
+@mixin createMenuAtt() {
+    background-color: lightpink;
+}
+
+@mixin createMenuDivAtt() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin createMarginRoot($totalSizeMargin: 0) {
+    margin-left: $totalSizeMargin / 2;
+    margin-right: $totalSizeMargin / 2;
+}
+
+// Style containers creators.
+
+@mixin createLeftContainer($totalSizeMargin: 0) {
+    .gridRootContainer {
+        @include createContainerBaseAtt($totalSizeMargin);
+        display: grid;
+    }
+}
+
+@mixin createCenterContainer($totalSizeMargin: 0) {
+    .gridRootContainer {
+        @include createContainerBaseAtt($totalSizeMargin);
+        height: $totalContainerHeight;
+    }
+}
+
+@mixin createVerticalMenu() {
+    .gridItemMenu {
+        @include createMenuAtt();
+        grid-row-start: 1;
+        grid-row-end: 3;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    .gridItemMenu div {
+        @include createMenuDivAtt();
+    }
+}
+
+@mixin createHorizontalMenu($isSmallSize) {
+    .gridItemMenu {
+        @include createMenuAtt();
+        display: flex;
+        @if not $isSmallSize {
+            height: $totalContainerHeight / $MenuReduceFactorInMediumSize;
+        }
+    }
+    
+    .gridItemMenu div {
+        @if not $isSmallSize {
+            @include createMenuDivAtt();
+            flex-grow: 1;
+            justify-content: center;
+        }
+        @else {
+            margin-left: 0.1em;
+        }
+    }
+}
+
+// Extra Large
+@media screen and (min-width: 81.25em) {
+    @include createLeftContainer($sizeMargin);
+    @include createVerticalMenu();
+}
+
+// Large
+@media screen and (max-width: 81.249em) and (min-width: 60em) {
+    @include createLeftContainer($sizeMargin / 4);
+    @include createVerticalMenu();
+}
+
+// Medium
+@media screen and (max-width: 59.999em) and (min-width: 35em) {
+    @include createCenterContainer(0);
+    @include createHorizontalMenu(false);
+}
+
+// Small
+@media screen and (max-width: 34.999em) {
+    @include createCenterContainer(0);
+    @include createHorizontalMenu(true);
+}
+
+.gridItemContentA {
+    @include createItemContentAtt(yellow);
+}
+
+.gridItemContentB {
+    @include createItemContentAtt(blue);
+}

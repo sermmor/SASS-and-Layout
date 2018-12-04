@@ -97,6 +97,17 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/content/css/Exercise03.css":
+/*!****************************************!*\
+  !*** ./src/content/css/Exercise03.css ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/content/css/Exercise03.css?");
+
+/***/ }),
+
 /***/ "./src/content/sass/Exercise01.scss":
 /*!******************************************!*\
   !*** ./src/content/sass/Exercise01.scss ***!
@@ -119,25 +130,25 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
-/***/ "./src/content/sass/Exercise03.scss":
+/***/ "./src/content/sass/Exercise04.scss":
 /*!******************************************!*\
-  !*** ./src/content/sass/Exercise03.scss ***!
+  !*** ./src/content/sass/Exercise04.scss ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/content/sass/Exercise03.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/content/sass/Exercise04.scss?");
 
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************************************!*\
-  !*** multi ./src/content/sass/Exercise01.scss ./src/content/sass/Exercise02Base.scss ./src/content/css/Exercise02_theme01.css ./src/content/sass/Exercise03.scss ***!
-  \*******************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** multi ./src/content/sass/Exercise01.scss ./src/content/sass/Exercise02Base.scss ./src/content/css/Exercise02_theme01.css ./src/content/css/Exercise03.css ./src/content/sass/Exercise04.scss ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/content/sass/Exercise01.scss */\"./src/content/sass/Exercise01.scss\");\n__webpack_require__(/*! ./src/content/sass/Exercise02Base.scss */\"./src/content/sass/Exercise02Base.scss\");\n__webpack_require__(/*! ./src/content/css/Exercise02_theme01.css */\"./src/content/css/Exercise02_theme01.css\");\nmodule.exports = __webpack_require__(/*! ./src/content/sass/Exercise03.scss */\"./src/content/sass/Exercise03.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/content/sass/Exercise01.scss_./src/content/sass/Exercise02Base.scss_./src/content/css/Exercise02_theme01.css_./src/content/sass/Exercise03.scss?");
+eval("__webpack_require__(/*! ./src/content/sass/Exercise01.scss */\"./src/content/sass/Exercise01.scss\");\n__webpack_require__(/*! ./src/content/sass/Exercise02Base.scss */\"./src/content/sass/Exercise02Base.scss\");\n__webpack_require__(/*! ./src/content/css/Exercise02_theme01.css */\"./src/content/css/Exercise02_theme01.css\");\n__webpack_require__(/*! ./src/content/css/Exercise03.css */\"./src/content/css/Exercise03.css\");\nmodule.exports = __webpack_require__(/*! ./src/content/sass/Exercise04.scss */\"./src/content/sass/Exercise04.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/content/sass/Exercise01.scss_./src/content/sass/Exercise02Base.scss_./src/content/css/Exercise02_theme01.css_./src/content/css/Exercise03.css_./src/content/sass/Exercise04.scss?");
 
 /***/ })
 

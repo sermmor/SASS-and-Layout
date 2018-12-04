@@ -5,12 +5,11 @@
     align-items: center;
     background-color: darkcyan;
     border-bottom: 0.1em solid #000000;
-    padding-bottom: 0em;
 }
 
 .navigationBarExercise03 a {
-    color: snow;
     flex-grow: 1;
+    color: snow;
     text-align: center;
     padding: 0.9em 1em;
     text-decoration: none;
