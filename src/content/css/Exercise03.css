@@ -9,8 +9,8 @@
 }
 
 .navigationBarExercise03 a {
-    color: snow;
     flex-grow: 1;
+    color: snow;
     text-align: center;
     padding: 0.9em 1em;
     text-decoration: none;
