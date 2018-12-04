@@ -254,38 +254,81 @@
     .navigationBarExercise03 a:first-of-type + a + a {display: none; }
 }
 
-.gridRootContainer {
-  margin: 2em;
-  background-color: grey;
-  display: grid;
-  grid-template-columns: 20em auto;
-  grid-template-rows: auto auto;
-  height: 10em; }
+@media screen and (min-width: 81.25em) {
+  .gridRootContainer {
+    margin-left: 10em;
+    margin-right: 10em;
+    grid-template-columns: 20em auto;
+    grid-template-rows: auto auto;
+    height: 30em;
+    display: grid; }
+  .gridItemMenu {
+    background-color: lightpink;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: auto auto auto; }
+  .gridItemMenu div {
+    display: flex;
+    align-items: center; } }
 
-.gridItemMenu {
-  border: 2px solid black;
-  background-color: #5a5a5a;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  display: grid;
-  grid-template-rows: auto auto auto; }
+@media screen and (max-width: 81.249em) and (min-width: 60em) {
+  .gridRootContainer {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    grid-template-columns: 20em auto;
+    grid-template-rows: auto auto;
+    height: 30em;
+    display: grid; }
+  .gridItemMenu {
+    background-color: lightpink;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: auto auto auto; }
+  .gridItemMenu div {
+    display: flex;
+    align-items: center; } }
 
-.gridItemMenu div {
-  display: table-cell;
-  vertical-align: middle; }
+@media screen and (max-width: 59.999em) and (min-width: 35em) {
+  .gridRootContainer {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 20em auto;
+    grid-template-rows: auto auto;
+    height: 30em;
+    height: 30em; }
+  .gridItemMenu {
+    background-color: lightpink;
+    display: flex;
+    height: 5em; }
+  .gridItemMenu div {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center; } }
 
-.gridItemContents {
-  height: 10em; }
+@media screen and (max-width: 34.999em) {
+  .gridRootContainer {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 20em auto;
+    grid-template-rows: auto auto;
+    height: 30em;
+    height: 30em; }
+  .gridItemMenu {
+    background-color: lightpink;
+    display: flex; }
+  .gridItemMenu div {
+    margin-left: 0.1em; } }
 
 .gridItemContentA {
   box-sizing: border-box;
-  border: 2px solid black;
-  background-color: #5a5a5a;
-  height: 5em; }
+  height: 15em;
+  background-color: yellow; }
 
 .gridItemContentB {
   box-sizing: border-box;
-  border: 2px solid black;
-  background-color: #5a5a5a;
-  height: 5em; }
+  height: 15em;
+  background-color: blue; }
 
