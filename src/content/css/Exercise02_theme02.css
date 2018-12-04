@@ -1,0 +1,29 @@
+.boxParent {
+    font-family: monospace;
+    border-radius: 2em;
+}
+
+.boxPrincipalFont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boxSecondaryFont {
+    font-family: sans-serif;
+}
+
+.boxBase {
+    background-color: blue;
+}
+
+.boxImportant {
+    background-color: navy;
+}
+
+.boxWarning {
+    background-color: aqua;
+}
+
+.boxWithShadow {
+    background-color: springgreen;
+    box-shadow: .7em .7em .3em black;
+}

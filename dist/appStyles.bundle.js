@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/content/css/Exercise02_theme01.css":
+/*!************************************************!*\
+  !*** ./src/content/css/Exercise02_theme01.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/content/css/Exercise02_theme01.css?");
+
+/***/ }),
+
 /***/ "./src/content/sass/Exercise01.scss":
 /*!******************************************!*\
   !*** ./src/content/sass/Exercise01.scss ***!
@@ -97,14 +108,25 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
-/***/ 0:
-/*!************************************************!*\
-  !*** multi ./src/content/sass/Exercise01.scss ***!
-  \************************************************/
+/***/ "./src/content/sass/Exercise02Base.scss":
+/*!**********************************************!*\
+  !*** ./src/content/sass/Exercise02Base.scss ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! ./src/content/sass/Exercise01.scss */\"./src/content/sass/Exercise01.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/content/sass/Exercise01.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/content/sass/Exercise02Base.scss?");
+
+/***/ }),
+
+/***/ 0:
+/*!********************************************************************************************************************************!*\
+  !*** multi ./src/content/sass/Exercise01.scss ./src/content/sass/Exercise02Base.scss ./src/content/css/Exercise02_theme01.css ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./src/content/sass/Exercise01.scss */\"./src/content/sass/Exercise01.scss\");\n__webpack_require__(/*! ./src/content/sass/Exercise02Base.scss */\"./src/content/sass/Exercise02Base.scss\");\nmodule.exports = __webpack_require__(/*! ./src/content/css/Exercise02_theme01.css */\"./src/content/css/Exercise02_theme01.css\");\n\n\n//# sourceURL=webpack:///multi_./src/content/sass/Exercise01.scss_./src/content/sass/Exercise02Base.scss_./src/content/css/Exercise02_theme01.css?");
 
 /***/ })
 
