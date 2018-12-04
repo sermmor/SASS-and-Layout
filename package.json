@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sergio Martín (sermmor)",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^1.0.1",
