@@ -1,0 +1,29 @@
+.boxParent {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .2em;
+}
+
+.boxPrincipalFont {
+    font-family: Times;
+}
+
+.boxSecondaryFont {
+    font-family: Monospace;
+}
+
+.boxBase {
+    background-color: red;
+}
+
+.boxImportant {
+    background-color: brown;
+}
+
+.boxWarning {
+    background-color: hotpink;
+}
+
+.boxWithShadow {
+    background-color: snow;
+    box-shadow: -.7em .7em .3em black;
+}

@@ -5,6 +5,10 @@ module.exports = {
     entry: {
         appStyles: [
             './src/content/sass/Exercise01.scss',
+            './src/content/sass/Exercise02Base.scss',
+            './src/content/css/Exercise02_theme01.css', // Theme 1 for exercise 02.
+            //'./src/content/css/Exercise02_theme02.css', // Theme 2 for exercise 02.
+            
         ]
     },
     output: {

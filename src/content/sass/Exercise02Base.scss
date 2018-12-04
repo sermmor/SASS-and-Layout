@@ -1,0 +1,34 @@
+@mixin CreateBoxExercise02FontAtt() {
+    margin-bottom: 0em;
+    padding-bottom: 1em;
+}
+
+@mixin CreateBoxExercise02Att() {
+    width: 4em;
+    height: 2.5em;
+    margin-bottom: .1em;
+    padding: 1em;
+    border: .1em solid;
+}
+
+.exercise02StyleRoot {
+    position: fixed;
+    top: 3em;
+    left: 6em;
+}
+
+.boxParent {
+    @include CreateBoxExercise02Att();
+}
+
+.boxFontParent {
+    @include CreateBoxExercise02FontAtt();
+}
+
+.boxPrincipalFont {
+    margin-top: 1em;
+}
+
+.boxSecondaryFont {
+    margin-top: 0em;
+}
