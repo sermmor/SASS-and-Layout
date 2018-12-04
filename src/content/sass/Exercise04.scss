@@ -1,0 +1,49 @@
+$totalContainerHeight: 30em;
+$sizeMargin: 20em;
+
+@mixin createMarginRoot($totalSizeMargin: 0) {
+    .gridRootContainer {
+        margin-left: $totalSizeMargin / 2;
+        margin-right: $totalSizeMargin / 2;
+    }
+}
+
+@media screen and (min-width: 81.25em) {
+    @include createMarginRoot($sizeMargin);
+}
+
+@media screen and (max-width: 81.24em) {
+    @include createMarginRoot($sizeMargin / 4);
+}
+
+.gridRootContainer {
+    display: grid;
+    grid-template-columns: 20em auto;
+    grid-template-rows: auto auto;
+    height: $totalContainerHeight;
+}
+
+.gridItemMenu {
+    background-color: lightpink;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.gridItemMenu div {
+    display: flex;
+    align-items: center;
+}
+
+.gridItemContentA {
+    box-sizing: border-box;
+    background-color: yellow;
+    height: $totalContainerHeight / 2;
+}
+
+.gridItemContentB {
+    box-sizing: border-box;
+    background-color: blue;
+    height: $totalContainerHeight / 2;
+}

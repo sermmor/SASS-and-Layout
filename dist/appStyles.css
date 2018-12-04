@@ -1,4 +1,10 @@
-div {
+#firstColor {
+  padding-bottom: 30px; }
+
+#secondColor {
+  padding-bottom: 30px; }
+
+#thirdColor {
   padding-bottom: 30px; }
 
 #firstColor div:first-of-type {
@@ -216,33 +222,70 @@ div {
 }
 
 .navigationBarExercise03 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: darkcyan;
-  border-bottom: 0.1em solid #000000;
-  padding-bottom: 0em; }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkcyan;
+    border-bottom: 0.1em solid #000000;
+}
 
 .navigationBarExercise03 a {
-  color: snow;
-  flex-grow: 1;
-  text-align: center;
-  padding: 0.9em 1em;
-  text-decoration: none;
-  font-size: 1.1em; }
+    flex-grow: 1;
+    color: snow;
+    text-align: center;
+    padding: 0.9em 1em;
+    text-decoration: none;
+    font-size: 1.1em;
+}
 
 .navigationBarExercise03 a:hover {
-  background-color: beige;
-  color: black; }
+    background-color: beige;
+    color: black;
+}
 
 .navigationBarExercise03 a.navigationActiveE3 {
-  background-color: orangered;
-  color: snow; }
+    background-color: orangered;
+    color:snow;
+}
 
 @media screen and (max-width: 40em) {
-  .navigationBarExercise03 a:first-of-type + a {
-    display: none; }
-  .navigationBarExercise03 a:first-of-type + a + a {
-    display: none; } }
+    .navigationBarExercise03 a:first-of-type + a {display: none; }
+    .navigationBarExercise03 a:first-of-type + a + a {display: none; }
+}
+
+.gridRootContainer {
+  margin: 2em;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 20em auto;
+  grid-template-rows: auto auto;
+  height: 10em; }
+
+.gridItemMenu {
+  border: 2px solid black;
+  background-color: #5a5a5a;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-rows: auto auto auto; }
+
+.gridItemMenu div {
+  display: table-cell;
+  vertical-align: middle; }
+
+.gridItemContents {
+  height: 10em; }
+
+.gridItemContentA {
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: #5a5a5a;
+  height: 5em; }
+
+.gridItemContentB {
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: #5a5a5a;
+  height: 5em; }
 

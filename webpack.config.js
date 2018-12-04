@@ -9,6 +9,7 @@ module.exports = {
             './src/content/css/Exercise02_theme01.css', // Theme 1 for exercise 02.
             //'./src/content/css/Exercise02_theme02.css', // Theme 2 for exercise 02.
             './src/content/css/Exercise03.css',
+            './src/content/sass/Exercise04.scss',
         ]
     },
     output: {
