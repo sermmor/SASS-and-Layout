@@ -1,0 +1,165 @@
+div {
+  padding-bottom: 30px; }
+
+#firstColor div:first-of-type {
+  display: inline-block;
+  background-color: #370000;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div {
+  display: inline-block;
+  background-color: #690000;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div {
+  display: inline-block;
+  background-color: #9b0000;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div + div {
+  display: inline-block;
+  background-color: #cd0000;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div + div + div {
+  display: inline-block;
+  background-color: red;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div + div + div + div {
+  display: inline-block;
+  background-color: #ff3232;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #ff6464;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #ff9696;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#firstColor div:first-of-type + div + div + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #ffc8c8;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type {
+  display: inline-block;
+  background-color: #003700;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div {
+  display: inline-block;
+  background-color: #006900;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div {
+  display: inline-block;
+  background-color: #009b00;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div + div {
+  display: inline-block;
+  background-color: #00cd00;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div + div + div {
+  display: inline-block;
+  background-color: lime;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div + div + div + div {
+  display: inline-block;
+  background-color: #32ff32;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #64ff64;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #96ff96;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#secondColor div:first-of-type + div + div + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #c8ffc8;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type {
+  display: inline-block;
+  background-color: #000037;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div {
+  display: inline-block;
+  background-color: #000069;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div {
+  display: inline-block;
+  background-color: #00009b;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div + div {
+  display: inline-block;
+  background-color: mediumblue;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div + div + div {
+  display: inline-block;
+  background-color: blue;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div + div + div + div {
+  display: inline-block;
+  background-color: #3232ff;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #6464ff;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #9696ff;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
+#thirdColor div:first-of-type + div + div + div + div + div + div + div + div {
+  display: inline-block;
+  background-color: #c8c8ff;
+  color: #e6e6e6;
+  padding: 60px 5px 60px 5px; }
+
