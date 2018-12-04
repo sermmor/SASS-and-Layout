@@ -119,14 +119,25 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
-/***/ 0:
-/*!********************************************************************************************************************************!*\
-  !*** multi ./src/content/sass/Exercise01.scss ./src/content/sass/Exercise02Base.scss ./src/content/css/Exercise02_theme01.css ***!
-  \********************************************************************************************************************************/
+/***/ "./src/content/sass/Exercise03.scss":
+/*!******************************************!*\
+  !*** ./src/content/sass/Exercise03.scss ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/content/sass/Exercise01.scss */\"./src/content/sass/Exercise01.scss\");\n__webpack_require__(/*! ./src/content/sass/Exercise02Base.scss */\"./src/content/sass/Exercise02Base.scss\");\nmodule.exports = __webpack_require__(/*! ./src/content/css/Exercise02_theme01.css */\"./src/content/css/Exercise02_theme01.css\");\n\n\n//# sourceURL=webpack:///multi_./src/content/sass/Exercise01.scss_./src/content/sass/Exercise02Base.scss_./src/content/css/Exercise02_theme01.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/content/sass/Exercise03.scss?");
+
+/***/ }),
+
+/***/ 0:
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi ./src/content/sass/Exercise01.scss ./src/content/sass/Exercise02Base.scss ./src/content/css/Exercise02_theme01.css ./src/content/sass/Exercise03.scss ***!
+  \*******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./src/content/sass/Exercise01.scss */\"./src/content/sass/Exercise01.scss\");\n__webpack_require__(/*! ./src/content/sass/Exercise02Base.scss */\"./src/content/sass/Exercise02Base.scss\");\n__webpack_require__(/*! ./src/content/css/Exercise02_theme01.css */\"./src/content/css/Exercise02_theme01.css\");\nmodule.exports = __webpack_require__(/*! ./src/content/sass/Exercise03.scss */\"./src/content/sass/Exercise03.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/content/sass/Exercise01.scss_./src/content/sass/Exercise02Base.scss_./src/content/css/Exercise02_theme01.css_./src/content/sass/Exercise03.scss?");
 
 /***/ })
 
