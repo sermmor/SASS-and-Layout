@@ -24,11 +24,11 @@ npm start
 ```
 
 # Screenshots
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise1.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise2.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise3_big_screen.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise3_small_screen.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise4_big_screen.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise4_middle_screen.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise4_small_screen.PNG)
-![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/screenshots/Exercise4_mobile_screen.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise1.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise2.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise3_big_screen.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise3_small_screen.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise4_big_screen.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise4_middle_screen.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise4_small_screen.PNG)
+![Capture1](https://raw.githubusercontent.com/sermmor/SASS-and-Layout/master/screenshots/Exercise4_mobile_screen.PNG)
